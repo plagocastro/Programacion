@@ -10,15 +10,15 @@ public class Boletin04 {
         Libro obxLibro = new Libro();
         obxLibro.setTitulo("El Quijote");
         obxLibro.setAutor("Miguel de Cervantes");
-        obxLibro.setAno((int) 1605);
-        obxLibro.setNumPaginas((short) 445);
+        obxLibro.setAno(1605);
+        obxLibro.setNumPaginas((short) 446);
         obxLibro.setValoracion(4.5f);
         obxLibro.amosar();
         System.out.println("Introduce titulo: ");
         String t = sc.nextLine();
         System.out.println("Introduce autor: ");
         String a = sc.nextLine();
-        System.out.println("Introduce ano de edicion: ");
+        System.out.println("Introduce ano daa edicion: ");
         int an = sc.nextInt();
         System.out.println("Introduce numero de paxinas: ");
         short num = sc.nextShort();
