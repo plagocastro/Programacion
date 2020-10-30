@@ -11,7 +11,7 @@ public class Boletin04 {
         obxLibro.setTitulo("El Quijote");
         obxLibro.setAutor("Miguel de Cervantes");
         obxLibro.setAno(1605);
-        obxLibro.setNumPaginas((short) 446);
+        obxLibro.setNumPaginas((short) 445);
         obxLibro.setValoracion(4.5f);
         obxLibro.amosar();
         System.out.println("Introduce titulo: ");
