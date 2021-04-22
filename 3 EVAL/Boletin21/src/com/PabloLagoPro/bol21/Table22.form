@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.PabloLagoPro.bol21.ejercicio21">
+  <grid id="27dc6" binding="Campo1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="133" y="66" width="564" height="559"/>
+    </constraints>
+    <properties>
+      <background color="-9802128"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="a61e" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="100" left="50" bottom="50" right="50"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="459" height="374"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5458760"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3dd3a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <focusCycleRoot value="false"/>
+              <font name="Arial" size="12" style="0"/>
+              <foreground color="-16777216"/>
+              <horizontalTextPosition value="2"/>
+              <opaque value="false"/>
+              <text value="Create new user"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="98374" class="javax.swing.JLabel" binding="etqprimera">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="User name"/>
+            </properties>
+          </component>
+          <component id="6dc1" class="javax.swing.JTextField" binding="nameTextField1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="name:"/>
+            </properties>
+          </component>
+          <component id="5de96" class="javax.swing.JTextField" binding="userNameTextField2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="User name: "/>
+            </properties>
+          </component>
+          <component id="38248" class="javax.swing.JTextField" binding="automaticTextField3">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="[automatic]"/>
+            </properties>
+          </component>
+          <component id="d00d" class="javax.swing.JLabel" binding="fullNameLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Full name"/>
+            </properties>
+          </component>
+          <component id="9f8eb" class="javax.swing.JLabel" binding="userIDLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="User ID"/>
+            </properties>
+          </component>
+          <component id="ba505" class="javax.swing.JLabel" binding="groupLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Group"/>
+            </properties>
+          </component>
+          <component id="30191" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="staff"/>
+                <item value="cheff"/>
+                <item value="recepcionist"/>
+              </model>
+            </properties>
+          </component>
+          <component id="1bd57" class="javax.swing.JTextField" binding="automaticTextField4">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="[automatic]"/>
+            </properties>
+          </component>
+          <component id="da684" class="javax.swing.JLabel" binding="homeDirectoryLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Home Directory"/>
+            </properties>
+          </component>
+          <component id="e03c8" class="javax.swing.JLabel" binding="loginShellLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Login Shell"/>
+            </properties>
+          </component>
+          <component id="8934b" class="javax.swing.JComboBox" binding="comboBox2">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="/bin/skin"/>
+              </model>
+            </properties>
+          </component>
+          <component id="fcbf6" class="javax.swing.JLabel" binding="passwordLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="e86c4" class="javax.swing.JLabel" binding="confirmLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="5250a" class="javax.swing.JPasswordField" binding="passwordPasswordField" default-binding="true">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="7063b" class="javax.swing.JPasswordField" binding="confirmItPasswordField">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Confirm it"/>
+            </properties>
+          </component>
+          <component id="dfa31" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+          <component id="6d12d" class="javax.swing.JButton" binding="okButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Ok"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
